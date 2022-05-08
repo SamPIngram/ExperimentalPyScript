@@ -1030,7 +1030,7 @@ output_manager = OutputManager()
     			script = element("script");
     			t = space$1();
     			create_component(tailwind.$$.fragment);
-    			if (!src_url_equal(script.src, script_src_value = "https://cdn.jsdelivr.net/pyodide/v0.20.0/full/pyodide.js")) attr_dev(script, "src", script_src_value);
+    			if (!src_url_equal(script.src, script_src_value = "webscript/pyodide.js")) attr_dev(script, "src", script_src_value);
     			add_location(script, file, 38, 4, 1298);
     		},
     		l: function claim(nodes) {
